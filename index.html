@@ -20,8 +20,16 @@
             text-transform: lowercase;
         }
 
+        summary {
+            list-style-position: outside;
+        }
+
+        li {
+            margin: 1em 0em;
+        }
+
         .unstyled {
-            list-style: none;
+            list-style-type: none;
         }
     </style>
 </head>
@@ -29,23 +37,40 @@
 <body>
     <div>
         <h1>Keison Tang</h1>
-        <p>Software Engineer with 5+ years of experience in the Microsoft ecosystem</p>
+        Software Engineer with 5+ years of experience in the Microsoft ecosystem
     </div>
     <div>
         <h2>Work</h2>
-        <ul>
+        <ul class="unstyled">
             <li>
-                <p>Senior Software Engineer @ <a href="https://datacom.com" target="_blank">Datacom</a>, 2026 -
-                    present
-                </p>
+                <details open>
+                    <summary>Senior Software Engineer @
+                        <a href="https://datacom.com" target="_blank">Datacom</a>, 2026 - present
+                    </summary>
+                    <ul>
+                        <li>Datapay</li>
+                    </ul>
+                </details>
             </li>
             <li>
-                <p>Software Engineer @ <a href="https://datacom.com" target="_blank">Datacom</a>, 2022 - 2026</p>
+                <details>
+                    <summary>Software Engineer @
+                        <a href="https://datacom.com" target="_blank">Datacom</a>, 2022 - 2026
+                    </summary>
+                    <ul>
+                        <li>Datapay</li>
+                    </ul>
+                </details>
             </li>
             <li>
-                <p>Graduate Software Developer @ <a href="https://www.deskdirector.com"
-                        target="_blank">DeskDirector</a>,
-                    2021 - 2022</p>
+                <details>
+                    <summary> Graduate Software Developer @
+                        <a href="https://deskdirector.com" target="_blank">DeskDirector</a>, 2021 - 2022
+                    </summary>
+                    <ul>
+                        <li>ITSM ticketing platform</li>
+                    </ul>
+                </details>
             </li>
         </ul>
     </div>
@@ -53,15 +78,15 @@
         <h2>Education</h2>
         <ul>
             <li>
-                <p><a href="https://learn.microsoft.com/api/credentials/share/en-nz/KeisonTang-3121/7A446B25E045A8C5?sharingId=38DB8733A3C401E1"
-                        target="_blank">Microsoft Azure AI Fundamentals</a>, 2025</p>
+                <a href="https://learn.microsoft.com/api/credentials/share/en-nz/KeisonTang-3121/7A446B25E045A8C5?sharingId=38DB8733A3C401E1"
+                    target="_blank">Microsoft Azure AI Fundamentals</a>, 2025
             </li>
             <li>
-                <p><a href="https://learn.microsoft.com/api/credentials/share/en-us/KeisonTang-3121/D616D3B8427E72DD?sharingId=38DB8733A3C401E1"
-                        target="_blank">Microsoft Azure Fundamentals</a>, 2024</p>
+                <a href="https://learn.microsoft.com/api/credentials/share/en-us/KeisonTang-3121/D616D3B8427E72DD?sharingId=38DB8733A3C401E1"
+                    target="_blank">Microsoft Azure Fundamentals</a>, 2024
             </li>
             <li>
-                <p>BE(Hons) Computer Systems Engineering @ UoA, 2015 - 2018</p>
+                BE(Hons) Computer Systems Engineering @ UoA, 2015 - 2018
             </li>
         </ul>
     </div>
@@ -69,8 +94,8 @@
         <h2>Publication</h2>
         <ul class="unstyled">
             <li>
-                <p><a href="https://www.mdpi.com/1010458" target="_blank">CNN-Based Smart Sleep Posture Recognition
-                        System</a>, 2021</p>
+                <a href="https://www.mdpi.com/1010458" target="_blank">
+                    CNN-Based Smart Sleep Posture Recognition System</a>, 2021
             </li>
         </ul>
     </div>
@@ -78,13 +103,13 @@
         <h2>Links</h2>
         <ul>
             <li>
-                <p><a href="https://www.linkedin.com/in/keisontang/" target="_blank">LinkedIn</a></p>
+                <a href="https://www.linkedin.com/in/keisontang/" target="_blank">LinkedIn</a>
             </li>
             <li>
-                <p><a href="https://github.com/keison-tang" target="_blank">GitHub</a></p>
+                <a href="https://github.com/keison-tang" target="_blank">GitHub</a>
             </li>
             <li>
-                <p><a href="https://www.strava.com/athletes/97832682" target="_blank">Strava</a></p>
+                <a href="https://www.strava.com/athletes/97832682" target="_blank">Strava</a>
             </li>
         </ul>
     </div>
